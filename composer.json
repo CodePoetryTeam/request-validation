@@ -28,5 +28,10 @@
     "repositories": [
     ],
     "scripts": {
+    },
+    "extra": {
+        "branch-alias": {
+            "main": "1.0.4-dev"
+        }
     }
 }
