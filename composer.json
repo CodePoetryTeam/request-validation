@@ -2,7 +2,7 @@
     "name": "codepoetry/request-validation",
     "description": "REST Payload validation for PHP applications.",
     "type": "library",
-    "keywords": ["php", "validation", "rest", "payload", "codepoetry", "laravel"],
+    "keywords": ["php", "validation", "rest", "payload", "codepoetry"],
     "license": "MIT",
     "support": {
         "issues": "https://github.com/CodePoetryTeam/request-validation/issues",
