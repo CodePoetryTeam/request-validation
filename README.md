@@ -23,9 +23,50 @@ composer require codepoetry/request-validation
 ## Usage
 
 Here's a basic example of how to use this package:
-
+Create `ExampleRequest.php` file in `api_gateway/app/Http/Requests`
 ```php
-// TODO: Add code examples and usage instructions here.
+<?php
+
+namespace App\Http\Requests;
+
+use Codepoetry\RequestValidation\RequestAbstract;
+
+class ExampleRequest extends RequestAbstract
+{
+    /**
+     * Determine if the user is authorized to make this request.
+     *
+     * @return bool
+     */
+    public function authorize(): bool
+    {
+        return true;
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array
+     */
+    public function rules(): array
+    {
+        return [
+            "email" => "require"
+        ];
+    }
+
+    /**
+     * Get custom messages for validator errors.
+     *
+     * @return array
+     */
+    public function messages(): array
+    {
+        return [
+            "email.unique" => trans('validation.email_unique'),
+        ];
+    }
+}
 ```
 
 ## Documentation
