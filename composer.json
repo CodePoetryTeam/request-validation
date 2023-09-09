@@ -4,6 +4,10 @@
     "type": "library",
     "keywords": ["php", "validation", "rest", "payload", "codepoetry", "laravel"],
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/CodePoetryTeam/request-validation/issues",
+        "source": "https://github.com/CodePoetryTeam/request-validation"
+    },
     "require": {
         "php": "^8.2"
     },
