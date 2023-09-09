@@ -1,17 +1,37 @@
 {
-    "name": "maansu/request-validation",
-    "description": "REST Payload validation",
+    "name": "codepoetry/request-validation",
+    "description": "REST Payload validation for PHP applications.",
+    "type": "library",
+    "keywords": ["php", "validation", "rest", "payload", "codepoetry", "laravel"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
     "autoload": {
         "psr-4": {
-            "Maansu\\RequestValidation\\": "src/"
+            "Codepoetry\\RequestValidation\\": "src/"
         }
     },
     "authors": [
         {
             "name": "Manab Roy",
-            "email": "manabroy72@gmail.com"
+            "email": "codepoetryindia@gmail.com",
+            "homepage": "https://codepoetry.in",
+            "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "repositories": [
+    ],
+    "scripts": {
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0.x-dev" 
+        }
+    }
 }
