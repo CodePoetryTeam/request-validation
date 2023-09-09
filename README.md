@@ -23,7 +23,7 @@ composer require codepoetry/request-validation
 ## Usage
 
 Here's a basic example of how to use this package:
-Create `ExampleRequest.php` file in `api_gateway/app/Http/Requests`
+Create `ExampleRequest.php` file in `app/Http/Requests`
 ```php
 <?php
 
